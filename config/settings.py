@@ -30,7 +30,7 @@ ALLOWED_HOSTS = [ '99p.dev' ]
 # Application definition
 
 INSTALLED_APPS = [
-    'portfolio',
+    'portfolio.apps.PortfolioConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
