@@ -30,7 +30,6 @@ ALLOWED_HOSTS = [ '99p.dev' ] if os.environ.get('DEBUG') is None else [ 'localho
 # Application definition
 
 INSTALLED_APPS = [
-    'portfolio.apps.PortfolioConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
