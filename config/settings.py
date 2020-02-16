@@ -25,7 +25,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', default='foobar')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = int(os.environ.get('DEBUG', default=False))
 
-ALLOWED_HOSTS = [ '.99p.dev' ] if os.environ.get('DEBUG') is None else [ 'localhost' ]
+ALLOWED_HOSTS = [ '99p.dev' ] if os.environ.get('DEBUG') is None else [ 'localhost' ]
 
 # Application definition
 
