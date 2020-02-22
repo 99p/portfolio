@@ -3,3 +3,4 @@ gunicorn
 psycopg2-binary
 whitenoise
 dj_database_url
+django-bootstrap4
